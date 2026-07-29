@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Chessiq</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --border: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--accent);
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            border-top: 1px solid var(--border);
+            padding-top: 20px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Chess<span>iq</span></div>
+            <h1>Privacy Policy</h1>
+            <div class="last-updated">Last Updated: July 3, 2026</div>
+        </header>
+
+        <main>
+            <section>
+                <h2>1. Introduction</h2>
+                <p>Welcome to Chessiq. We are committed to protecting your privacy. This Privacy Policy describes how Chessiq ("we", "us", or "our") handles information when you use our mobile application.</p>
+            </section>
+
+            <section>
+                <h2>2. Information Collection and Use</h2>
+                <p><strong>We do not collect, store, or share any personal data.</strong> Chessiq operates entirely locally on your device. Specifically:</p>
+                <ul>
+                    <li><strong>No Personal Information:</strong> We do not ask for, collect, or store personal identifiers such as your name, email address, phone number, or account details.</li>
+                    <li><strong>Local Gameplay:</strong> All chess game state calculations, Stockfish AI interactions, move histories, and local player turns are processed directly on your device. No game logs are sent to external servers.</li>
+                    <li><strong>No Location Tracking:</strong> The app does not track, collect, or upload your physical location.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Third-Party Services</h2>
+                <p>Chessiq runs entirely offline for core chess activities. The app does not integrate third-party analytics frameworks, advertising networks, or social logins that collect tracking data or device identifiers.</p>
+            </section>
+
+            <section>
+                <h2>4. Device Permissions</h2>
+                <p>Chessiq does not request or require sensitive device permissions (such as camera, microphone, contacts, location, or file storage access) to function. The only data processed is game configuration settings stored locally inside Android Shared Preferences.</p>
+            </section>
+
+            <section>
+                <h2>5. Security</h2>
+                <p>Since we do not collect any personal data, there is no risk of data breaches or leaks on our part. We encourage you to secure your device with lock screens and standard security practices to protect your locally stored app configurations.</p>
+            </section>
+
+            <section>
+                <h2>6. Children's Privacy</h2>
+                <p>Because Chessiq does not collect any personal identifier information from users of any age, it is fully compliant with the Children's Online Privacy Protection Act (COPPA) and General Data Protection Regulation (GDPR) standards for children.</p>
+            </section>
+
+            <section>
+                <h2>7. Changes to This Policy</h2>
+                <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the version number inside the app.</p>
+            </section>
+
+            <section>
+                <h2>8. Contact Us</h2>
+                <p>If you have any questions or suggestions regarding this Privacy Policy, please contact us at: <a href="mailto:support@chessiq.example.com">support@chessiq.example.com</a>.</p>
+            </section>
+        </main>
+
+        <footer>
+            &copy; 2026 Chessiq. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
